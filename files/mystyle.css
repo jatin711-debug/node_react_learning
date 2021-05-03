@@ -1,0 +1,39 @@
+body{
+    background-image: url(./school.jpg);
+}
+#navigator{
+    display: flex-box;
+    justify-content: left;
+    top: 0%;
+}
+#nav-list{
+    display: flex;
+    text-indent: 10px;
+    list-style: none;
+    color: aliceblue;
+}
+.main-form{
+    width: 40%;
+    margin-top: 50px;
+
+}
+.heads{
+    border: solid rgb(231, 4, 4) 2px;
+    background-color: black;
+    margin: 0 0 0 0;
+    display: flex;
+}
+#input-1{
+color: wheat; 
+}
+#head-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 25% ;
+    border-radius: 50%;
+    top: 100px;
+}
+#submission{
+    margin-left: 34%;
+    border: solid 1px salmon;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <% people.forEach((person) =>{ %>
+            <li><a href="/person?name=<%= person.name %>"><%= person.name %></a>:
+                <%= person.age %>
+            </li>
+        <% }); %>
+    </ul>
+    <a href="/public/page-2.html">Create New Entry</a>
+</body>
+</html>

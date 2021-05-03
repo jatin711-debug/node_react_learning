@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/update" method="POST">
+        Name: <%= person.name %><br>
+        <input name="username" value='<%= person.name %>' hidden>
+        Age: <input name="age" value='<%= person.age %>' >
+        <input type="submit" value="Update">
+    </form>
+    <br><a href="/public/page-2.html">create New person</a>
+    <br><a href="/all">Show all enteries</a>
+</body>
+</html>

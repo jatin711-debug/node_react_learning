@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="heads">
+        <nav id="">
+           <ul id="nav-list">
+               <li><h3>HOME</h3></li>
+               <li><h3>ABOUT</h3></li>
+               <li><h3>CONTACT_US</h3></li>
+           </ul>
+        </nav>
+        <img src="logo.jpg" alt="school-img" id="head-logo">
+    </header>
+    <form action="/handel_main_page" method="POST" name="Login_Page" class="main-form" >
+        <fieldset id="input-1">
+            <legend>Fill Out Your Details</legend>
+            <p>Enter FirstName <input type="text" name="Fname"></p>
+            <p>Enter Last Name </h3><input type="text" name="Lname"></p>
+            <p>Enter age </h3><input type="number" name="age"></p>
+            <p> Gender:
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+            <p>Enter 16 digit AdharCard Number <input type="number" name="adhar" maxlength="16"></p>
+            <p>Select City: <select name="city" id="cars">
+                <option value="Amritsar">Amritsar</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Patiala">Patiala</option>
+                <option value="Maharashtra">Maharashtra</option>
+              </select>
+            </p>
+        </fieldset>
+        <input type="submit" value="Submit Form" id="submission">
+    </form>
+</body>
+</html>
